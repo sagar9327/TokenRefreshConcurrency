@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		B20D1912306D05D500F448C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B20D18F9306D05D400F448C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B20D1900306D05D400F448C0;
+			remoteInfo = TokenRefreshConcurrency;
+		};
+		B20D191C306D05D500F448C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B20D18F9306D05D400F448C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B20D1900306D05D400F448C0;
+			remoteInfo = TokenRefreshConcurrency;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B20D1901306D05D400F448C0 /* TokenRefreshConcurrency.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TokenRefreshConcurrency.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B20D1911306D05D500F448C0 /* TokenRefreshConcurrencyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TokenRefreshConcurrencyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B20D191B306D05D500F448C0 /* TokenRefreshConcurrencyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TokenRefreshConcurrencyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		B20D1903306D05D400F448C0 /* TokenRefreshConcurrency */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TokenRefreshConcurrency;
+			sourceTree = "<group>";
+		};
+		B20D1914306D05D500F448C0 /* TokenRefreshConcurrencyTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TokenRefreshConcurrencyTests;
+			sourceTree = "<group>";
+		};
+		B20D191E306D05D500F448C0 /* TokenRefreshConcurrencyUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TokenRefreshConcurrencyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B20D18FE306D05D400F448C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B20D190E306D05D500F448C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B20D1918306D05D500F448C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B20D18F8306D05D400F448C0 = {
+			isa = PBXGroup;
+			children = (
+				B20D1903306D05D400F448C0 /* TokenRefreshConcurrency */,
+				B20D1914306D05D500F448C0 /* TokenRefreshConcurrencyTests */,
+				B20D191E306D05D500F448C0 /* TokenRefreshConcurrencyUITests */,
+				B20D1902306D05D400F448C0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B20D1902306D05D400F448C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B20D1901306D05D400F448C0 /* TokenRefreshConcurrency.app */,
+				B20D1911306D05D500F448C0 /* TokenRefreshConcurrencyTests.xctest */,
+				B20D191B306D05D500F448C0 /* TokenRefreshConcurrencyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B20D1900306D05D400F448C0 /* TokenRefreshConcurrency */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B20D1925306D05D500F448C0 /* Build configuration list for PBXNativeTarget "TokenRefreshConcurrency" */;
+			buildPhases = (
+				B20D18FD306D05D400F448C0 /* Sources */,
+				B20D18FE306D05D400F448C0 /* Frameworks */,
+				B20D18FF306D05D400F448C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				B20D1903306D05D400F448C0 /* TokenRefreshConcurrency */,
+			);
+			name = TokenRefreshConcurrency;
+			packageProductDependencies = (
+			);
+			productName = TokenRefreshConcurrency;
+			productReference = B20D1901306D05D400F448C0 /* TokenRefreshConcurrency.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B20D1910306D05D500F448C0 /* TokenRefreshConcurrencyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B20D1928306D05D500F448C0 /* Build configuration list for PBXNativeTarget "TokenRefreshConcurrencyTests" */;
+			buildPhases = (
+				B20D190D306D05D500F448C0 /* Sources */,
+				B20D190E306D05D500F448C0 /* Frameworks */,
+				B20D190F306D05D500F448C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B20D1913306D05D500F448C0 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B20D1914306D05D500F448C0 /* TokenRefreshConcurrencyTests */,
+			);
+			name = TokenRefreshConcurrencyTests;
+			packageProductDependencies = (
+			);
+			productName = TokenRefreshConcurrencyTests;
+			productReference = B20D1911306D05D500F448C0 /* TokenRefreshConcurrencyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B20D191A306D05D500F448C0 /* TokenRefreshConcurrencyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B20D192B306D05D500F448C0 /* Build configuration list for PBXNativeTarget "TokenRefreshConcurrencyUITests" */;
+			buildPhases = (
+				B20D1917306D05D500F448C0 /* Sources */,
+				B20D1918306D05D500F448C0 /* Frameworks */,
+				B20D1919306D05D500F448C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B20D191D306D05D500F448C0 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B20D191E306D05D500F448C0 /* TokenRefreshConcurrencyUITests */,
+			);
+			name = TokenRefreshConcurrencyUITests;
+			packageProductDependencies = (
+			);
+			productName = TokenRefreshConcurrencyUITests;
+			productReference = B20D191B306D05D500F448C0 /* TokenRefreshConcurrencyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B20D18F9306D05D400F448C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					B20D1900306D05D400F448C0 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					B20D1910306D05D500F448C0 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = B20D1900306D05D400F448C0;
+					};
+					B20D191A306D05D500F448C0 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = B20D1900306D05D400F448C0;
+					};
+				};
+			};
+			buildConfigurationList = B20D18FC306D05D400F448C0 /* Build configuration list for PBXProject "TokenRefreshConcurrency" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B20D18F8306D05D400F448C0;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B20D1902306D05D400F448C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B20D1900306D05D400F448C0 /* TokenRefreshConcurrency */,
+				B20D1910306D05D500F448C0 /* TokenRefreshConcurrencyTests */,
+				B20D191A306D05D500F448C0 /* TokenRefreshConcurrencyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B20D18FF306D05D400F448C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B20D190F306D05D500F448C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B20D1919306D05D500F448C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B20D18FD306D05D400F448C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B20D190D306D05D500F448C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B20D1917306D05D500F448C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B20D1913306D05D500F448C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B20D1900306D05D400F448C0 /* TokenRefreshConcurrency */;
+			targetProxy = B20D1912306D05D500F448C0 /* PBXContainerItemProxy */;
+		};
+		B20D191D306D05D500F448C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B20D1900306D05D400F448C0 /* TokenRefreshConcurrency */;
+			targetProxy = B20D191C306D05D500F448C0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B20D1923306D05D500F448C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B20D1924306D05D500F448C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B20D1926306D05D500F448C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TokenRefreshConcurrency/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sagar.com.TokenRefreshConcurrency;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B20D1927306D05D500F448C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TokenRefreshConcurrency/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sagar.com.TokenRefreshConcurrency;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B20D1929306D05D500F448C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sagar.com.TokenRefreshConcurrencyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TokenRefreshConcurrency.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TokenRefreshConcurrency";
+			};
+			name = Debug;
+		};
+		B20D192A306D05D500F448C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sagar.com.TokenRefreshConcurrencyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TokenRefreshConcurrency.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TokenRefreshConcurrency";
+			};
+			name = Release;
+		};
+		B20D192C306D05D500F448C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sagar.com.TokenRefreshConcurrencyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TokenRefreshConcurrency;
+			};
+			name = Debug;
+		};
+		B20D192D306D05D500F448C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sagar.com.TokenRefreshConcurrencyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TokenRefreshConcurrency;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B20D18FC306D05D400F448C0 /* Build configuration list for PBXProject "TokenRefreshConcurrency" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B20D1923306D05D500F448C0 /* Debug */,
+				B20D1924306D05D500F448C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B20D1925306D05D500F448C0 /* Build configuration list for PBXNativeTarget "TokenRefreshConcurrency" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B20D1926306D05D500F448C0 /* Debug */,
+				B20D1927306D05D500F448C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B20D1928306D05D500F448C0 /* Build configuration list for PBXNativeTarget "TokenRefreshConcurrencyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B20D1929306D05D500F448C0 /* Debug */,
+				B20D192A306D05D500F448C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B20D192B306D05D500F448C0 /* Build configuration list for PBXNativeTarget "TokenRefreshConcurrencyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B20D192C306D05D500F448C0 /* Debug */,
+				B20D192D306D05D500F448C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B20D18F9306D05D400F448C0 /* Project object */;
+}
